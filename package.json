@@ -1,0 +1,19 @@
+{
+  "name": "travelpayouts",
+  "version": "0.0.0",
+  "description": "TravelPayouts API",
+  "main": "./lib/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TravelPayouts"
+  ],
+  "author": "Evgeny Vlasenko <mahnunchik+TravelPayouts@gmal.com>",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^4.2.0",
+    "moment": "^2.10.6",
+    "verror": "^1.6.0"
+  }
+}
