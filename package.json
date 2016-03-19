@@ -4,7 +4,8 @@
   "description": "TravelPayouts API",
   "main": "./lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js lib"
   },
   "keywords": [
     "TravelPayouts"
@@ -12,8 +13,12 @@
   "author": "Evgeny Vlasenko <mahnunchik+TravelPayouts@gmal.com>",
   "license": "MIT",
   "dependencies": {
-    "got": "^4.2.0",
-    "moment": "^2.10.6",
+    "got": "^6.2.0",
     "verror": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.0-beta.6",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0"
   }
 }
