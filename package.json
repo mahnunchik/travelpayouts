@@ -14,6 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "got": "^6.2.0",
+    "lodash.isequal": "^4.1.1",
+    "lodash.unionwith": "^4.2.1",
     "verror": "^1.6.0"
   },
   "devDependencies": {
