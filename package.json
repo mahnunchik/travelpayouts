@@ -1,5 +1,5 @@
 {
-  "name": "travelpayouts",
+  "name": "travelpayouts-api",
   "version": "0.0.0",
   "description": "TravelPayouts API",
   "main": "./lib/",
