@@ -19,8 +19,8 @@
     "verror": "^1.6.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.0-beta.6",
-    "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^7.0.0"
+    "eslint": "^2.13.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1"
   }
 }

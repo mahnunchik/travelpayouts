@@ -1,8 +1,8 @@
 {
-  "parser": "babel-eslint",
-  "extends": "airbnb/base",
+  "extends": "airbnb-base",
   "rules": {
-    "eqeqeq": [2, "smart"]
+    "eqeqeq": [2, "smart"],
+    "strict": 0
   },
   "env": {
     "node": true,
