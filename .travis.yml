@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "6"
+install:
+  - npm install
+script:
+  - npm run lint
+deploy:
+  provider: npm
+  email: mahnunchik@gmail.com
+  api_key:
+    secure: eL3OEWN78r/J8Oey9WiRqW4owSrwhhORCTE5MRww+3i1XWuLJWIYJhtYsHAHz+FM9eSMsovKzAFRFHl44wsV8cZDBTRe7rmeFtl0Vutj/yXkDMyWu4EeidRnTuxejTXom/xfajNEM1nAGJgFek7AW/koobpmODIyMTXkc1S2UD5KMnJdfXEnDTXblX20wWVsVIPwvIUCVyZ9ISorPgw7ZZSGP+L261iUhr0CcYYBvhJzWGYZCzHPkYT4NTljedSi8mmlTuo46NtxZ+GItBYYQKLhYQ8EQ3eg3qtftBqQrSlRWlR+S69wQYCggjn4V5hnqXdcgY7YoEn7zFRt0+/Jhs+0wIIjidcyX9FWDLHe10Au2bR+5VjTAEANwgTqRSU8EwbUTvDR9jtGaY1fhchTj4yg3h5QnSWRKx6AVcZ539TvnscMEHJjspbp1sH/hQWtuJ6EL1ye/aH1JSO5bFlloeoFYzSZE6mGX1xMkXV7+j/QuM1YV1e+Y8e56N4L578x3utRZG0BW2FMURnR6zGPMlNvbi8JM0RvbOT6AJb0HZY1SmQwgBz8kNKjmVxNgZ36N8+20ICe72Bz2iKm83t6PJWKnu6m6yBs9Yx4aNYwtWXde2DwHX7Og+eFTYOl7ykCSXHIzHqufOBnhFSrEoiSvDGG/GpOSkWINtH5FepXvqQ=
+  on:
+    tags: true
+    repo: mahnunchik/travelpayouts
