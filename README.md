@@ -31,9 +31,7 @@ return api.search({
 
 ## API
 
-### Class: TravelPayouts
-
-#### new TravelPayouts(token, marker, options)
+### new TravelPayouts(token, marker, options)
 
 Create TravelPayouts API instance
 
@@ -50,7 +48,7 @@ Create TravelPayouts API instance
  - **options.timeout**: `number` - Timeout for all requests in total
 
 
-#### TravelPayouts.search(segments, options)
+### TravelPayouts.search(segments, options)
 
 Flights search
 
