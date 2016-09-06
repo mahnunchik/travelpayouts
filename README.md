@@ -86,6 +86,11 @@ Flights search
 
 **Returns**: `promise`
 
+## Information
+
+* [TravelPayouts website](https://www.travelpayouts.com/)
+* [Flights search API](https://support.travelpayouts.com/hc/en-us/articles/203956173)
+
 ## About
 
 `travelpayouts-api` module is used in production on the [avia.ml](https://avia.ml/) website.
