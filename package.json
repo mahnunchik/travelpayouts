@@ -8,9 +8,18 @@
     "lint": "eslint index.js lib"
   },
   "keywords": [
-    "TravelPayouts"
+    "TravelPayouts",
+    "aviasales",
+    "api",
+    "ticket",
+    "flight"
   ],
-  "author": "Evgeny Vlasenko <mahnunchik+TravelPayouts@gmal.com>",
+  "repository": "mahnunchik/travelpayouts",
+  "author": {
+    "name": "Evgeny Vlasenko",
+    "email": "mahnunchik+TravelPayouts@gmail.com",
+    "url": "https://github.com/mahnunchik"
+  },
   "license": "MIT",
   "dependencies": {
     "got": "^6.2.0",
@@ -19,8 +28,8 @@
     "verror": "^1.6.0"
   },
   "devDependencies": {
-    "eslint": "^2.13.0",
-    "eslint-config-airbnb-base": "^3.0.1",
-    "eslint-plugin-import": "^1.8.1"
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.14.0"
   }
 }
