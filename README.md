@@ -1,4 +1,4 @@
-# TravelPayouts API
+# TravelPayouts API [![Build Status](https://travis-ci.org/mahnunchik/travelpayouts.svg?branch=master)](https://travis-ci.org/mahnunchik/travelpayouts)
 
 > [TravelPayouts](https://www.travelpayouts.com/) Affiliate Network for Your Travel Traffic Monetization
 
