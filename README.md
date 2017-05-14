@@ -1,5 +1,7 @@
 # TravelPayouts API [![Build Status](https://travis-ci.org/mahnunchik/travelpayouts.svg?branch=master)](https://travis-ci.org/mahnunchik/travelpayouts)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/travelpayouts.svg)](https://greenkeeper.io/)
+
 > [TravelPayouts](https://www.travelpayouts.com/) Affiliate Network for Your Travel Traffic Monetization
 
 ## Installation
